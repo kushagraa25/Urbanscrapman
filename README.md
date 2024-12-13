@@ -107,3 +107,9 @@ Admin endpoints need the header `Authorization: Bearer <token>`.
 | Web Frontend | `npm run build` | Production build into `dist/` |
 | Web Frontend | `npm run lint` | Run ESLint |
 | Backend | `npx nodemon index.js` | Start the API with auto-restart |
+
+## Reconstructed commit sequence
+
+The original patches were unavailable. These dated commits record the supplied messages; they do not reproduce the original code changes.
+
+- 2024-12-13 | backend push
