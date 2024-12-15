@@ -113,3 +113,5 @@ Admin endpoints need the header `Authorization: Bearer <token>`.
 The original patches were unavailable. These dated commits record the supplied messages; they do not reproduce the original code changes.
 
 - 2024-12-13 | backend push
+
+- 2024-12-15 | user exist checking
