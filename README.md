@@ -115,3 +115,4 @@ The original patches were unavailable. These dated commits record the supplied m
 - 2024-12-13 | backend push
 
 - 2024-12-15 | user exist checking
+- 2024-12-17 | frontend and admin portal
