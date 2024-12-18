@@ -120,3 +120,4 @@ The original patches were unavailable. These dated commits record the supplied m
 - 2024-12-17 | backend url
 - 2024-12-18 | toast Aleart
 - 2024-12-18 | chnage login page
+- 2024-12-18 | add the statics data
