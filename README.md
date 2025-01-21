@@ -126,3 +126,4 @@ The original patches were unavailable. These dated commits record the supplied m
 - 2024-12-19 | toggle nav in mobile
 - 2025-01-06 | add apk of urban scrapman
 - 2025-01-06 | change path of apk
+- 2025-01-21 | handle login state
