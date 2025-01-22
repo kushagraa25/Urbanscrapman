@@ -129,3 +129,4 @@ The original patches were unavailable. These dated commits record the supplied m
 - 2025-01-21 | handle login state
 - 2025-01-22 | update tandc and pp
 - 2025-01-22 | footer update
+- 2025-01-22 | remove xcentic
