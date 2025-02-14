@@ -133,3 +133,4 @@ The original patches were unavailable. These dated commits record the supplied m
 - 2025-01-23 | add google search console
 - 2025-01-25 | change wp number
 - 2025-01-27 | add otp system
+- 2025-02-14 | add the pageination
