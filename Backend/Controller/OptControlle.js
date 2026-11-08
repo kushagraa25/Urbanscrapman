@@ -9,7 +9,9 @@ export const Getopt = async (req, res) => {
         const api_key = process.env.OTP_API
         if (!req.body || !req.body.phoneNumber) return res.status(400).json({ "error": "All fields Are Required" });
 
-        const generatedotp = Math.floor(Math.random() * (999999 - 111111 + 1)) + 111111;
+        // No SMS key set (local development): use a fixed OTP and skip the SMS.
+        const useDefaultOtp = !api_key;
+        const generatedotp = useDefaultOtp ? 123456 : Math.floor(Math.random() * (999999 - 111111 + 1)) + 111111;
         const sessionId = randomBytes(12).toString('hex');
 
         const result = await otp.create({
@@ -18,6 +20,13 @@ export const Getopt = async (req, res) => {
         })
 
         if (!result) return res.status(504).json({ 'error': "Gateway Timeout" });
+
+        if (useDefaultOtp) {
+            return res.status(200).json({
+                message : "Otp Send Sucessfully",
+                sessionId: sessionId
+            });
+        }
 
         const otpresponse = await axios.get(`https://www.fast2sms.com/dev/bulkV2?authorization=${api_key}&route=dlt&sender_id=USRPMN&message=178735&variables_values=${generatedotp}&numbers=${req.body.phoneNumber}`);
 
