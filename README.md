@@ -137,3 +137,4 @@ The original patches were unavailable. These dated commits record the supplied m
 - 2025-02-14 | add play store link
 - 2026-11-08 | Use a fixed dev OTP (123456) when no SMS key is configured
 - 2026-11-08 | Ignore local Notes folder
+- 2026-11-08 | Add project README and backend .env.example
