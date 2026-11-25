@@ -107,34 +107,3 @@ Admin endpoints need the header `Authorization: Bearer <token>`.
 | Web Frontend | `npm run build` | Production build into `dist/` |
 | Web Frontend | `npm run lint` | Run ESLint |
 | Backend | `npx nodemon index.js` | Start the API with auto-restart |
-
-## Reconstructed commit sequence
-
-The original patches were unavailable. These dated commits record the supplied messages; they do not reproduce the original code changes.
-
-- 2024-12-13 | backend push
-
-- 2024-12-15 | user exist checking
-- 2024-12-17 | frontend and admin portal
-- 2024-12-17 | add shedule form
-- 2024-12-17 | backend url
-- 2024-12-18 | toast Aleart
-- 2024-12-18 | chnage login page
-- 2024-12-18 | add the statics data
-- 2024-12-18 | add the statics data
-- 2024-12-18 | remove console's
-- 2024-12-19 | toggle nav in mobile
-- 2025-01-06 | add apk of urban scrapman
-- 2025-01-06 | change path of apk
-- 2025-01-21 | handle login state
-- 2025-01-22 | update tandc and pp
-- 2025-01-22 | footer update
-- 2025-01-22 | remove xcentic
-- 2025-01-23 | add google search console
-- 2025-01-25 | change wp number
-- 2025-01-27 | add otp system
-- 2025-02-14 | add the pageination
-- 2025-02-14 | add play store link
-- 2026-11-08 | Use a fixed dev OTP (123456) when no SMS key is configured
-- 2026-11-08 | Ignore local Notes folder
-- 2026-11-08 | Add project README and backend .env.example
